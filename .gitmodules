@@ -1,0 +1,3 @@
+[submodule "easiest-game-ever"]
+	path = easiest-game-ever
+	url = git@github.com:Beat0154/easiest-game-ever.git

@@ -5,6 +5,7 @@
   <meta charset="UTF-8" />
   <title>Run Buddy</title>
   <link rel="stylesheet" href="https://www.w3schools.com/html/styles.css">
+  <link rel="stylesheet" href="style.css">
   <style>
     div {
       border: 2px solid powderblue;
@@ -14,15 +15,18 @@
 </head>
 
 <body>
+
     <div>
       <h1 style="font-family:'Courier New'">I love you Madi!</h1>
       <img src="https://pbs.twimg.com/profile_images/1190774302213394433/OF23gnGq_400x400.jpg" alt="Love Bob" class="">
     </div>
+
+    <div class="game">
+      <div id="character"></div>
+      <div id="block"></div>
+  </div>
+  <p>Score: <span id="scoreSpan"></span></p>
+
 </body>
-
-<iframe src="https://chromedino.com/" frameborder="0" scrolling="no" width="100%" height="100%" loading="lazy"></iframe>
-<style type="text/css">iframe { position: absolute; width: 100%; height: 100%; z-index: 999; }</style>
-
-
-
+<script src="script.js"></script>
 </html>

@@ -3,9 +3,11 @@
 
 <head>
   <meta charset="UTF-8" />
-  <title>Run Buddy</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KOMDEUR.com</title>
   <link rel="stylesheet" href="https://www.w3schools.com/html/styles.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles.css">
   <style>
     div {
       border: 2px solid powderblue;
@@ -15,18 +17,57 @@
 </head>
 
 <body>
+  <main>
 
-    <div>
-      <h1 style="font-family:'Courier New'">I love you Madi!</h1>
-      <img src="https://pbs.twimg.com/profile_images/1190774302213394433/OF23gnGq_400x400.jpg" alt="Love Bob" class="">
+      <!--------------------Navigation-------------------------->
+      
+      <nav class="nav">
+        <div class="nav-menu flex-row">
+          <div class="nav-brand">
+            <a href="#" class="text-gray">KOMDEUR</a>
+            <p class="under-construction">
+              Under Construction
+            </p>
+            
+          </div>
+          <div>
+            <ul class="nav-items">
+              <li class="nav-link">
+                <a href="">Home</a>
+              </li>
+              <li class="nav-link">
+                <a href="">Photos of Riecee</a>
+              </li>
+              <li class="nav-link">
+                <a href="">Photos of Bob</a>
+              </li>
+              <li class="nav-link">
+                <a href="">Photos of Fam Bam</a>
+              </li>
+              <li class="nav-link">
+                <a href="">Accomplishments</a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!----------x----------Navigation---------------x----------->
+
+
+        <h1 style="font-family:'Courier New'">I love you Madi!</h1>
+        <img src="https://pbs.twimg.com/profile_images/1190774302213394433/OF23gnGq_400x400.jpg" alt="Love Bob" class="">
+      </div>
+
+      <div class="game">
+        <div id="character"></div>
+        <div id="block"></div>
     </div>
-
-    <div class="game">
-      <div id="character"></div>
-      <div id="block"></div>
-  </div>
-  <p>Score: <span id="scoreSpan"></span></p>
-
+    <p> MADISON KOMDEUR </p>
+  </main>
+  <!---------Custom Javascript File--------->
+  <script> src="./js/main.js"</script>
 </body>
-<script src="script.js"></script>
+
 </html>
